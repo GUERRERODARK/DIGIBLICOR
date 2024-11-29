@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGIBLICOR</title>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+    <!-- <header class="header"> Logo Tipo y Menu -->
+    <header class="header">
+  <header class="header">
+    <div class="menu container">
+        <a href="#" class="logo">DIGIBLICOR</a>
+        <input type="checkbox" id="menu"/>
+        <label for="menu">
+            <img src="Imagenes/menu.png" class="menu-icono" alt="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#"> Inicio </a></li>
+                <div>
+                    
+                    <li><a class="link" href="Login.html" href="#"> Iniciar Sesion </a></li>
+                    
+                </div>
+                
+                <li><a href="#"> Productos </a></li>
+                <li><a href="#"> Contactos </a></li>
+            </ul>
+        </nav>
+        <div>
+            <ul>
+                <li class="submenu">
+                    <img src="Imagenes/car.svg" id="img-carrito" alt="carrito">
+                    <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" class="btn-2" id="vaciar-carrito">Vaciar Carrito</a>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- <div class="header-content container">Oferta Especiales -->
+    <div class="header-content container">
+        <div class="header-txt">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Oferta Especiales</h1>
+            <p>Calidad Precio</p>
+            <img src="Imagenes/Licores.png" alt="licores">
+            <a href="#" class="btn-1">informacion</a>
+            <br>
+            <br>
+        </div>
+
+    </div>
+
+
+  </header>
+
+  <section class="about container">
+
+    <div class="about-img">
+        <img src="Imagenes/Whiskys 2.png" alt="">
+    </div>
+    <div class="about-text">
+        <h2>Nosotros</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis deserunt voluptate eum minima maxime? Soluta asperiores, qui animi excepturi, unde maxime itaque dolores, doloremque autem consectetur iure tenetur necessitatibus deserunt.
+
+        </p>
+        <a href="#" class="btn-1">Informacion</a>
+    </div>
+
+  </section>
+
+  <main class="productos container" id="lista-1">
+    <h2>Productos</h2>
+   
+    <div class="productos-content">
+
+        <!-- <div class="productos">Tipo de Productos -->
+        <div class="productos">
+            <img src="Imagenes/Aguardiente_amarillo.png" alt="">
+            <div class="productos-txt">
+                <h3>Aguardiente Amarrillo</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 45.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id ="1"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Aguardiente_Nectar.png" alt="">
+            <div class="productos-txt">
+                <h3>Aguardiente Nectar</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 40.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="2"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/aguardiente_antioqueño.png" alt="">
+            <div class="productos-txt">
+                <h3>Aguardiente Antioqueño</h3>
+                <p>X750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 45.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="3"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Aguardiente_tapa_roja.png" alt="">
+            <div class="productos-txt">
+                <h3>Aguardiente Tapa Roja</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 50.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="4"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Aguardiente_rosado.png" alt="">
+            <div class="productos-txt">
+                <h3>Aguardiente Rose</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 60.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="5"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Ron_de_caldas.png" alt="">
+            <div class="productos-txt">
+                <h3>Ron de Caldas</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 55.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="6"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/ron_medellin.png" alt="">
+            <div class="productos-txt">
+                <h3>Ron Medellin</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 50.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="7"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/ron_bacardi.png" alt="">
+            <div class="productos-txt">
+                <h3>Ron Bacardi</h3>
+                <P>X 750ml</P>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 65.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="8"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Tequila_don_julio_70.png" alt="">
+            <div class="productos-txt">
+                <h3>Tequila don Julio 70</h3>
+                <P>X 700ml</P>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 380.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="9"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Tequila_jose_cuervo.png" alt="">
+            <div class="productos-txt">
+                <h3>Tequila Jose Cuervo</h3>
+                <P>X 750ml</P>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 80.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="10"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Tequila 4 Vientos.png" alt="">
+            <div class="productos-txt">
+                <h3>Tequila 4 Vientos</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 155.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="11"="">Agregar</a>
+            </div>
+        </div>
+        <div class="productos">
+            <img src="Imagenes/whisky-buchanans-master.png" alt="">
+            <div class="productos-txt">
+                <h3>Whisky Buchanans Master</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 190.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="12"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Whisky_old_parr.png" alt="">
+            <div class="productos-txt">
+                <h3>Whisky Old Parr</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 150.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="13"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Whisky_chivas.png" alt="">
+            <div class="productos-txt">
+                <h3>Whisky Chivas</h3>
+                <p>X 1000ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 150.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="14"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Whisky_jhonnie_walker.png" alt="">
+            <div class="productos-txt">
+                <h3>Whisky jhonnie walker</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 185.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="15"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Whisky_jack_daniels.png" alt="">
+            <div class="productos-txt">
+                <h3>Whisky jack Daniels</h3>
+                <p>X 700ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 110.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="16"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Whisky_something_special.png" alt="">
+            <div class="productos-txt">
+                <h3>Whisky something Special</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 75.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="17"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/CREMA_DE_WHISKY_BLACK_JACK.png" alt="">
+            <div class="productos-txt">
+                <h3>Crema de Whisky Black Jack</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 40.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="18"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/vodka_abasolut.png" alt="">
+            <div class="productos-txt">
+                <h3>Vodka Absolut</h3>
+                <p>X 700ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 90.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="19"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Vodka-smirnoff_botella.png" alt="">
+            <div class="productos-txt">
+                <h3>Vodka Smirnoff</h3>
+                <p>X 700ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 100.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="20"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Guaro_Cacique.png" alt="">
+            <div class="productos-txt">
+                <h3>Guaro Cacique</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 70.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="21"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/ginebra_gordons.png" alt="">
+            <div class="productos-txt">
+                <h3>Ginebra gordons</h3>
+                <p>X 700ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 100.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="22"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/ginebra_bombay.png" alt="">
+            <div class="productos-txt">
+                <h3>Ginebra Bombay</h3>
+                <p>X 700ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 155.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="23"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/champagne_chandon_brut.png" alt="">
+            <div class="productos-txt">
+                <h3>Champagne Chandon Brut</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 95.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="24"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Champagne_rose_jp.png" alt="">
+            <div class="productos-txt">
+                <h3>Champagne Rose</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 60.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="25"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/vino_casillero_del_diablo.png" alt="">
+            <div class="productos-txt">
+                <h3>Vino Casillero del Diablo</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 70.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="26"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/vino_alegoria_navarro.png" alt="">
+            <div class="productos-txt">
+                <h3>Vino Alegoria Navarro</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 190.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="27"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/vino_fuzion.png" alt="">
+            <div class="productos-txt">
+                <h3>Vino Fuzion</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 175.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="28"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/moscatel-añejo-demuller.png" alt="">
+            <div class="productos-txt">
+                <h3>Vino Moscatel</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 40.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="29"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/vino_moscato.png" alt="">
+            <div class="productos-txt">
+                <h3>Vino Moscato</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 50.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="30"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/vino_sanson.png" alt="">
+            <div class="productos-txt">
+                <h3>Vino Sanson</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 25.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="31"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/vino_orsola.png" alt="">
+            <div class="productos-txt">
+                <h3>Vino Orsola</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 60.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="32"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/vino_tinto.png" alt="">
+            <div class="productos-txt">
+                <h3>Vino Tinto</h3>
+                <p>X 750ml</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 200.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="33"="">Agregar</a>
+            </div>
+        </div>
+
+
+        <div class="productos">
+            <img src="Imagenes/CERVEZA-AGUILA.png" alt="">
+            <div class="productos-txt">
+                <h3>Cerveza Aguila</h3>
+                <p>Six Pack</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 19.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="34"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/CERVEZA-ANDINA.png" alt="">
+            <div class="productos-txt">
+                <h3>Cerveza Andina</h3>
+                <p>Six Pack</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 18.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="35"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/CERVEZA-ARTESANALES.png" alt="">
+            <div class="productos-txt">
+                <h3>Cervezas Artesanales</h3>
+                <p>Six Pack Surtidas</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 75.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="36"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/CERVEZA-CLUB_COLOMBIA.png" alt="">
+            <div class="productos-txt">
+                <h3>Cerveza Club Colombia</h3>
+                <p>Six Pack</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 20.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="37"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/CERVEZA-COSTENA.png" alt="">
+            <div class="productos-txt">
+                <h3>Cerveza Costeña</h3>
+                <p>Six Pack</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 18.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="38"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/CERVEZA_CORONA.png" alt="">
+            <div class="productos-txt">
+                <h3>Cerveza Corona</h3>
+                <p>Six Pack</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 28.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="39"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/CERVEZA-POKER.png" alt="">
+            <div class="productos-txt">
+                <h3>Cerveza Poker</h3>
+                <p>Six Pack</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 19.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="40"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/CERVEZA-HEINEKEN.png" alt="">
+            <div class="productos-txt">
+                <h3>Cerveza Heineken</h3>
+                <p>Six Pack</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 25.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="41"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/CERVEZA-REDDS.png" alt="">
+            <div class="productos-txt">
+                <h3>Cerveza Redds</h3>
+                <p>Six Pack</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 20.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="42"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Vodka-smirnoff.png" alt="">
+            <div class="productos-txt">
+                <h3>Vodka Smirnoff Ice</h3>
+                <P>X4 Unidades</P>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 30.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="43"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Vodka-Like.png" alt="">
+            <div class="productos-txt">
+                <h3>Vodka Like</h3>
+                <p>Six Pack</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 20.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="44"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Red_bull.png" alt="">
+            <div class="productos-txt">
+                <h3>Red Bull</h3>
+                <p>X4 Unidades</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 30.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="45"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Monster.png" alt="">
+            <div class="productos-txt">
+                <h3>Monster</h3>
+                <p>X4 Unidades</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 25.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="46"="">Agregar</a>
+            </div>
+        </div>
+
+
+        <div class="productos">
+            <img src="Imagenes/Electrolit.png" alt="">
+            <div class="productos-txt">
+                <h3>Electrolit</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 9.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="47"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Gatorade.png" alt="">
+            <div class="productos-txt">
+                <h3>Gatorade</h3>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 4.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="48"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/gaseosas.png" alt="">
+            <div class="productos-txt">
+                <h3>Gaseosas Cc</h3>
+                <p>Botella 1,5 Lt</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 6.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="49"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Gaseosa_Postobon.png" alt="">
+            <div class="productos-txt">
+                <h3>Gaseosas P</h3>
+                <p>Botella 1,5 Lt</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 5.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="50"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/gaseosa_colombina.png" alt="">
+            <div class="productos-txt">
+                <h3>Gaseosa Colombiana</h3>
+                <p>Botella 1,5 Lt</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 5.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="51"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Agua_cielo.png" alt="">
+            <div class="productos-txt">
+                <h3>Agua Cielo</h3>
+                <p>Pack X24</p>
+                <p>Calidad Premium</p>
+                <p class="Precio"> 20.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="52"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Agua_h2o_saborizada.png" alt="">
+            <div class="productos-txt">
+                <h3>Agua Saborizada H2o</h3>
+                <p>Pack X24</p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 30.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="53"="">Agregar</a>
+            </div>
+        </div>
+
+        <div class="productos">
+            <img src="Imagenes/Jugo_Hit.png" alt="">
+            <div class="productos-txt">
+                <h3>Jugo Hit</h3>
+                <p>Botella 1.5 Lt DSabores </p>
+                <p>Calidad Premium</p>
+                <p class="Precio">$ 4.000</p>
+                <a href="#" class="Agregar-Carrito btn-2" data-id="53"="">Agregar</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    
+  </main>
+
+  <!-- <footer class="footer container">Imformacion y contactos de la pagina -->
+  <footer class="footer container">
+    <div class="link">
+        <h3>Acerca de Nosotros</h3>
+        <ul>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+        </ul>
+    </div>
+    <div class="link">
+        <h3>Descubre aun mas</h3>
+        <ul>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+        </ul>
+    </div>
+    <div class="link">
+        <h3>Datos de Contacto</h3>
+        <ul>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+        </ul>
+    </div>
+    <div class="link">
+        <h3>E-mail</h3>
+        <ul>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+            <li><a href="#">Lorem</a> </li>
+        </ul>
+    </div>
+  </footer>
+
+
+  <script src="Script.js"></script>
+
+</body>
+</html>
